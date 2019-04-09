@@ -1,6 +1,13 @@
 body{
     margin: 0%;
 }
+header{
+    width: 400px;
+    background-image: url(imagem/banner\ ornitorrinco.jpg);
+    background-color: red;
+    background-size: cover;
+}
+
 nav {
     background-color: aquamarine;
     height: 30px;
@@ -66,5 +73,24 @@ div input:nth-child(4) {
     border: none;
     border-radius: 10px;
     box-shadow: 2px 2px 2px green;
+}
+
+footer {
+    width: 100vw;
+    height: px;
+   background-color: aqua;
+   display:flex;
+    color: brown;
+    justify-content: center;
+    align-content: center;
+}
+footer div {
+    width: 150px;
+    display: flex;
+    justify-content: space-between
+}
+footer div img{
+    width: 30px;
+    height: 30px;
 
 }
