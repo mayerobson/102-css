@@ -12,6 +12,12 @@ nav a{
     color: rgb(167, 94, 0);
     text-decoration: none;
     }
+
+nav a:hover {
+    color: rgb(186, 202, 39);
+    text-decoration:  underline;
+}
+
 nav a:first-child {
     color: black;
     font-size: 30px;
@@ -19,5 +25,46 @@ nav a:first-child {
 }
 nav a:nth-child(3) {
     color: black;
+
+}
+
+section{
+    display: flex;
+    height: 300px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+section div {
+    display: flex;
+    flex-direction: column;
+   background-color: aqua;
+   height: 170px;
+   align-content: center;
+   justify-content: center;
+   border-radius: 10px;
+
+}
+
+div input{
+    margin-bottom: 5px;
+}
+section div input:focus{
+background-color: rgb(136, 136, 136)
+}
+
+input::placeholder{
+    color: rgb(88, 136, 179);
+    font-size: 30;
+    text-align: center;
+
+}
+div input:nth-child(4) {
+    margin-top: 20px;
+    width: 70%;
+    background-color: rgb(255, 174, 0);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px green;
 
 }
